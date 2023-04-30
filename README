@@ -1,0 +1,40 @@
+# Custom Button Chrome Extension
+
+This Chrome extension adds a custom button with an event listener to the OpenAI Chat website (https://chat.openai.com/).
+
+## Prerequisites
+
+1. Google Chrome browser installed on your computer.
+
+## Files
+
+Make sure you have the following files in your extension folder:
+
+my-extension/
+│
+├── manifest.json
+├── content.js
+└── icon.png
+
+
+## Installation
+
+Follow these steps to install the extension in your Google Chrome browser:
+
+1. Open Google Chrome.
+2. Navigate to `chrome://extensions`.
+3. Enable "Developer mode" in the top right corner.
+4. Click "Load unpacked" and select the folder containing your extension files (`my-extension`).
+
+The extension should now be installed and active in your browser. When you visit the specified URL (https://chat.openai.com/) and its subpages, the extension will run the `content.js` script, creating the custom button and adding the event listener as described in your initial request.
+
+## Troubleshooting
+
+If the extension isn't working as expected, consider the following:
+
+1. Ensure the website structure hasn't changed and that the elements you're trying to interact with are still present on the page.
+2. If the site uses dynamic loading, you may need to update the `content.js` code to account for the changes.
+
+## Support
+
+If you need help or have any questions, feel free to reach out for assistance.
